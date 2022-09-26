@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/boradcast_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广播" />
+    <Button
+        android:id="@+id/intent_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跨界面传值"/>
+    <Button
+        android:id="@+id/listview_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView列表"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
