@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button activityButton=findViewById(R.id.intent_test_button);
         activityButton.setOnClickListener(this);
         findViewById(R.id.listview_button).setOnClickListener(this);
-
+        findViewById(R.id.recyclerview_button).setOnClickListener(this);
 
     }
 
@@ -81,6 +81,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("测试","点击了listView按钮");
                 Intent intentforListview=new Intent(MainActivity.this,ListViewActivity.class);
                 startActivity(intentforListview);
+                break;
+            case R.id.recyclerview_button:
+                Log.d("测试","点击了recyclerview按钮");
+                Intent intentforRecyclerview=new Intent(MainActivity.this,RecyclerViewActivity.class);
+                startActivity(intentforRecyclerview);
                 break;
         }
     }

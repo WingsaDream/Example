@@ -19,5 +19,11 @@
         android:layout_height="wrap_content"
         android:text="ListView列表"
         android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/recyclerview_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recyclerview列表"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
