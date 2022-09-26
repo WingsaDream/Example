@@ -79,7 +79,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.listview_button:
                 Log.d("测试","点击了listView按钮");
-                Intent intentforListview
+                Intent intentforListview=new Intent(MainActivity.this,ListViewActivity.class);
+                startActivity(intentforListview);
                 break;
         }
     }
